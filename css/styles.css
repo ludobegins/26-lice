@@ -3,6 +3,21 @@ body{
     text-align: center;
 }
 
+.dog-bottom{
+    position:absolute;
+    left:15%;
+    bottom: 200px;
+    opacity: 0.7;
+}
+
+.dog-top{
+    opacity: 0.7;
+    position:absolute;
+    right: 15%;
+    top:50px;
+}
+
+
 hr{
     border-style: none;
     border-top-style: dotted;
@@ -13,7 +28,8 @@ hr{
 
 h1{
     color: #F6416C;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Lucida Sans Typewriter", Lucida Console, Arial, serif;
+    margin-top: 100px;
 }
 
 h3{
@@ -21,7 +37,12 @@ h3{
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lucida Sans Typewriter", Lucida Console, Arial, serif;
+}
+
+.forms{
+    background-color: orange;
+    padding-top: 20px;
 }
 
 .lice{
@@ -31,3 +52,11 @@ p{
 h3:hover{
     background-color: gold;
 }
+
+.top-container{
+    background-color: aquamarine;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
