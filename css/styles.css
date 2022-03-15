@@ -17,7 +17,6 @@ body{
     top:50px;
 }
 
-
 hr{
     border-style: none;
     border-top-style: dotted;
@@ -27,16 +26,26 @@ hr{
 }
 
 h1{
+    font-size: 3.5rem;
     color: #F6416C;
-    font-family: "Lucida Sans Typewriter", Lucida Console, Arial, serif;
+    font-family: "Dekko","Lucida Sans Typewriter", Lucida Console, Arial, serif;
     margin-top: 100px;
+}
+
+h2{
+    font-size: 2rem;
+    color: #F6416C;
+    font-family: "Dekko","Lucida Sans Typewriter", Lucida Console, Arial, serif;
+    margin-bottom: 0;
 }
 
 h3{
     color: #00B8A9;
+    font-size: 1.5rem;
 }
 
 p{
+    font-size: 1rem;
     font-family: "Lucida Sans Typewriter", Lucida Console, Arial, serif;
 }
 
@@ -53,10 +62,28 @@ h3:hover{
     background-color: gold;
 }
 
+table{
+    text-align: left;
+}
+
 .top-container{
     background-color: aquamarine;
     position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.qualidades-img{
+    width: 20%;
+    border-radius: 20%;
+    float: left;
+    margin-right: 2rem;
+}
+
+.qualidades-row{
+    width: 80%;
+    margin: 2rem auto;
+    text-align: left;
+    line-height: 1.5;
 }
 
