@@ -4,17 +4,27 @@ body{
 }
 
 .dog-bottom{
-    position:absolute;
-    left:15%;
-    bottom: 200px;
     opacity: 0.7;
+    object-fit: contain;
+    max-width: 200px;
+    align-items: flex-start;
+}
+
+div{
+    word-wrap: break-word;
+    font-size: 1rem;
+    font-family: "Lucida Sans Typewriter", Lucida Console, Arial, serif;
 }
 
 .dog-top{
     opacity: 0.7;
-    position:absolute;
+    object-fit: contain;
+    max-width: 200px;
+    align-items: flex-start;
+    /*position:absolute;
     right: 15%;
     top:50px;
+    width:200px;*/
 }
 
 hr{
@@ -29,7 +39,7 @@ h1{
     font-size: 3.5rem;
     color: #F6416C;
     font-family: "Dekko","Lucida Sans Typewriter", Lucida Console, Arial, serif;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 h2{
@@ -42,6 +52,14 @@ h2{
 h3{
     color: #00B8A9;
     font-size: 1.5rem;
+}
+
+.lice{
+    margin: 2rem 0;
+}
+
+.notas{
+    margin-top: 7rem;
 }
 
 p{
@@ -66,24 +84,44 @@ table{
     text-align: left;
 }
 
-.top-container{
+.top-section{
     background-color: aquamarine;
     position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
 }
 
 .qualidades-img{
-    width: 20%;
+    /*width: 20%;*/
+    flex: 2 1 200px;
+    max-width: 300px;
+    min-width: 200px;
     border-radius: 20%;
-    float: left;
     margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 .qualidades-row{
-    width: 80%;
-    margin: 2rem auto;
+    display: flex;
+    /*flex-wrap: wrap;*/
     text-align: left;
     line-height: 1.5;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto
 }
 
+.top-container{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+
+@media screen and (max-width:990px) {
+    .qualidades-row { flex-wrap: wrap;  }
+    /*.qualidades-img:first-child { flex-basis: 50%; }*/
+    .top-container{ flex-wrap: wrap;}
+  }
