@@ -1,10 +1,23 @@
+
+/* PALLETTES
+
+https://colorhunt.co/palette/ff4646ff8585ffb396fff5c0
+https://colorhunt.co/palette/364f6b3fc1c9f5f5f5fc5185
+
+*/
+
+
 body{
     background-color: #FDEFF4;
     text-align: center;
 }
 
+.checked{
+    color: orange;
+}
+
 .dog-bottom{
-    opacity: 0.7;
+    opacity: 1;
     object-fit: contain;
     max-width: 200px;
     align-items: flex-start;
@@ -17,7 +30,7 @@ div{
 }
 
 .dog-top{
-    opacity: 0.7;
+    opacity: 1;
     object-fit: contain;
     max-width: 200px;
     align-items: flex-start;
@@ -37,20 +50,21 @@ hr{
 
 h1{
     font-size: 3.5rem;
-    color: #F6416C;
-    font-family: "Dekko","Lucida Sans Typewriter", Lucida Console, Arial, serif;
+    font-weight: lighter;
+    color: #FF4646;
+    font-family: 'Fredoka One', cursive, "Dekko","Lucida Sans Typewriter", Lucida Console, Arial, serif;
     /*margin-top: 100px;*/
 }
 
 h2{
     font-size: 2rem;
-    color: #F6416C;
+    color: #FC5185;
     font-family: "Dekko","Lucida Sans Typewriter", Lucida Console, Arial, serif;
     margin-bottom: 0;
 }
 
 h3{
-    color: #00B8A9;
+    color: #3FC1C9;
     font-size: 1.5rem;
 }
 
@@ -59,7 +73,7 @@ h3{
 }
 
 .notas{
-    margin-top: 7rem;
+    margin-top: 2rem;
 }
 
 p{
@@ -76,6 +90,10 @@ p{
     border-radius: 80%;
 }
 
+.notas-container{
+    margin: 2rem 2rem;
+}
+
 h3:hover{
     background-color: gold;
 }
@@ -85,11 +103,15 @@ table{
 }
 
 .top-section{
-    background-color: aquamarine;
+    background-color: #FFF5C0;
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
     justify-content: center;
+}
+
+.qualidades{
+    background-color: #F5F5F5;
 }
 
 .qualidades-img{
@@ -116,6 +138,7 @@ table{
     display: flex;
     width: 70%;
     justify-content: center;
+    align-items: center;
     margin: 2rem auto;
 }
 
