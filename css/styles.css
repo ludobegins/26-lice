@@ -66,6 +66,7 @@ h2{
 h3{
     color: #3FC1C9;
     font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .lice{
@@ -121,7 +122,7 @@ table{
     min-width: 200px;
     border-radius: 20%;
     margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.8rem;
 }
 
 .qualidades-row{
