@@ -10,6 +10,30 @@ https://colorhunt.co/palette/364f6b3fc1c9f5f5f5fc5185
 body{
     background-color: #FDEFF4;
     text-align: center;
+    margin:0;
+}
+
+.boy{
+    background-color: #FBE5E5;
+}
+
+.boy-container{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.boy-img{
+    flex: 2 1 300px;
+    min-width: 300px;
+    border-radius: 20%;
+    margin: 0 1.5rem 1.5rem;
+}
+
+.boy-text{
+    text-align: left;
 }
 
 .checked{
@@ -51,22 +75,25 @@ hr{
 h1{
     font-size: 3.5rem;
     font-weight: lighter;
-    color: #FF4646;
+    color: #E60965;
     font-family: 'Fredoka One', cursive, "Dekko","Lucida Sans Typewriter", Lucida Console, Arial, serif;
     /*margin-top: 100px;*/
 }
 
 h2{
     font-size: 2rem;
-    color: #FC5185;
-    font-family: "Dekko","Lucida Sans Typewriter", Lucida Console, Arial, serif;
-    margin-bottom: 0;
+    color: #364F6B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    max-width: 90%;
 }
 
 h3{
     color: #3FC1C9;
+    font-family: "Dekko","Lucida Sans Typewriter", Lucida Console, Arial, serif;
     font-size: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .lice{
@@ -74,17 +101,32 @@ h3{
 }
 
 .notas{
-    margin-top: 2rem;
+    padding-top: 2rem;
+    background-color: #FFF5C0;
+}
+
+.notas-carac{
+    margin-bottom: 0.5rem;
 }
 
 p{
     font-size: 1rem;
     font-family: "Lucida Sans Typewriter", Lucida Console, Arial, serif;
+    color: #323232;
 }
 
 .forms{
-    background-color: orange;
-    padding-top: 20px;
+    background-color: #F5F5F5;
+    padding-top: 1rem;
+}
+
+.forms-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 1.5rem;
 }
 
 .lice{
@@ -92,7 +134,7 @@ p{
 }
 
 .notas-container{
-    margin: 2rem 2rem;
+    padding: 1rem 1rem;
 }
 
 h3:hover{
@@ -104,7 +146,7 @@ table{
 }
 
 .top-section{
-    background-color: #FFF5C0;
+    background-color: #FBE5E5; /*#FFF5C0;*/
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -113,6 +155,7 @@ table{
 
 .qualidades{
     background-color: #F5F5F5;
+    padding-bottom: 2rem;
 }
 
 .qualidades-img{
@@ -121,31 +164,44 @@ table{
     max-width: 300px;
     min-width: 200px;
     border-radius: 20%;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
     margin-bottom: 0.8rem;
 }
 
-.qualidades-row{
+.qualidades-row-left{
     display: flex;
     /*flex-wrap: wrap;*/
     text-align: left;
     line-height: 1.5;
-    width: 80%;
+    width: 55%;
+    justify-content: center;
+    margin: 0 auto
+}
+
+.qualidades-row-right{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    text-align: left;
+    line-height: 1.5;
+    width: 55%;
     justify-content: center;
     margin: 0 auto
 }
 
 .top-container{
     display: flex;
-    width: 70%;
+    width: 65%;
     justify-content: center;
     align-items: center;
-    margin: 2rem auto;
+    margin: 1rem auto;
 }
 
 
 @media screen and (max-width:990px) {
-    .qualidades-row { flex-wrap: wrap;  }
+    .qualidades-row-left { flex-wrap: wrap;  width:80%;}
+    .qualidades-row-right { flex-wrap: wrap;  width:80%; flex-direction: column-reverse;}
     /*.qualidades-img:first-child { flex-basis: 50%; }*/
     .top-container{ flex-wrap: wrap;}
+    .boy-container{flex-wrap: wrap;}
   }
