@@ -201,7 +201,9 @@ table{
 
 @media screen and (max-width:990px) {
     .qualidades-row-left { flex-wrap: wrap;  width:80%;}
-    .qualidades-row-right { flex-wrap: wrap;  width:80%; flex-direction: column-reverse; margin: 1rem 1rem;}
+    .qualidades-row-right { flex-wrap: wrap;  width:80%;}
+    .qualidades-img{ order: 0;}
+    .qualidades-txt{ order: 1;}
     /*.qualidades-img:first-child { flex-basis: 50%; }*/
     .top-container{ flex-wrap: wrap;}
     .boy-container{flex-wrap: wrap;}
