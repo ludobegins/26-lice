@@ -152,9 +152,11 @@
                 Deixe aqui seu recado - vai direto pro email da Alice
             </h3>
             <form action="https://formsubmit.co/ludo.beghin@gmail.com" method="POST">
-                <input type="text" name="nome" placeholder="Nome" style="margin-bottom: 1rem;"><br>
+                <input type="text" name="nome" placeholder="Nome" style="margin-bottom: 0.5rem;"><br>
+                <input type="email" name="email" placeholder="Email" style="margin-bottom: 1rem;"><br>
                 <textarea placeholder="Recado pra Lice" name="recado" rows="10" cols="30"></textarea><br>
                 <button type="submit"> Enviar </button>
+                <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="https://ludobegins.github.io/26-lice/">
             </form>
         </div>

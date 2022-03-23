@@ -6,6 +6,7 @@ https://colorhunt.co/palette/364f6b3fc1c9f5f5f5fc5185
 
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Happy+Monkey&display=swap");
 
 body{
     background-color: #FDEFF4;
@@ -186,7 +187,7 @@ table{
     line-height: 1.5;
     width: 55%;
     justify-content: center;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .top-container{
@@ -200,7 +201,7 @@ table{
 
 @media screen and (max-width:990px) {
     .qualidades-row-left { flex-wrap: wrap;  width:80%;}
-    .qualidades-row-right { flex-wrap: wrap;  width:80%; flex-direction: column-reverse;}
+    .qualidades-row-right { flex-wrap: wrap;  width:80%; flex-direction: column-reverse; margin: 1rem 1rem;}
     /*.qualidades-img:first-child { flex-basis: 50%; }*/
     .top-container{ flex-wrap: wrap;}
     .boy-container{flex-wrap: wrap;}
